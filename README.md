@@ -16,13 +16,13 @@ The intent of this command line application was to implement software design pat
 ***Functionality***  
 This project uses ***MPC***. The information about MPC can be found at https://github.com/DOCGroup/MPC . This tool generates a project based on input files. 
 The source code is written in ***C++***. I use Visual Studio Code to write this program because it is my favorite code editor. The program takes input from std::cin and output to std::cout. The user can enter any equation based on following arithmetic operators:
-1. +
-2. -
-3. /
-4. %
-5. *
-6. (
-7. ) 
+1. Addition operator " + "
+2. Subtraction operator " - "
+3. Division operator " / "
+4. Mod Operator " % "
+5. Multiplication Operator " * "
+6. Open Parenthesis " ( "
+7. Close Parenthesis " ) "
 
 Make sure the input is spaced out. For e.g. 3 + 4, 5 - 2, ( 4 * ( 3 - 2 ) )  
 The program won't accept inputs that are not spaced out.   
